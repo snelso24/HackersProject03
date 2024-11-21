@@ -9,7 +9,7 @@
    },
 
   "side_panel": {
-    "default_path": "summarize.html"
+    "default_path": "peerReview.html"
   },
 
   "permissions": ["sidePanel", "contextMenus", "storage"]

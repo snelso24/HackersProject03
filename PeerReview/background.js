@@ -12,6 +12,6 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 chrome.contextMenus.onClicked.addListener((data, tab) => {
-    chrome.storage.session.set({lastTextToSummarize: data.selectionText});
-    chrome.sidePanel.open({tabId:tab.id});
+    chrome.storage.session.set({ lastTextSummarized: data.selectionText });
+    chrome.sidePanel.open({ tabId:tab.id });
 });
