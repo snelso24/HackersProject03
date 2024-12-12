@@ -1,7 +1,7 @@
 # PeerReview
 Steps BEFORE download:
 
-1.List of Chrome Flags Enabled
+1. List of Chrome Flags Enabled
 Enables optimization guide on device: BypassPerfRequirement
 Prompt API for Gemini Nano: Enabled
 Summarization API for Gemini Nano : Enabled
@@ -20,6 +20,7 @@ Readily should return
 
 Steps AFTER download:
 (assuming it is a Chrome extension downloadable from the chrome store)
+
 3. Add to Chrome > Select Text > Right click > Press summarize
 
 Ways to customize your experience based on your needs:
